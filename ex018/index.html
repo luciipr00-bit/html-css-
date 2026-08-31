@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando classes e subclasses</title>
+    <style>
+
+        div{
+
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover{
+    background-color: yellow;
+
+}
+
+.subtitulo:hover{
+    background-color: red;
+}
+
+.vermelho:hover{
+    color: red;
+    
+}
+.vermelho{display: none;}
+
+h2:hover + p{
+
+    display: block;
+    color: black;
+    background-color: rgb(1, 136, 255);
+}
+    
+
+
+
+
+
+    </style>
+</head>
+<body>
+     
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+
+    <h1>vamos testar       
+    </h1>
+    <h2 >Um teste muito legal</h2>
+    <p class="vermelho">Passe o mouse aqui</p>
+    
+</body>
+</html>

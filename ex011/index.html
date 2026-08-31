@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+</head>
+<body>
+
+    <h1>Imagem dinamica</h1>
+    <p>abaixo você verá uma imagem dinamica</p>
+
+    <picture>
+
+        <source media="(max-width: 750px )" srcset="imagens/p.jpeg">
+         <source media="(max-width: 1050px )" srcset="imagens/m.jpeg">
+        <img src="imagens/g.jpeg" alt="imagem flexivel">
+    </picture>
+
+    <h1>Agora vamos reproduzir audio</h1>
+    <p>escute esse audio abaixo</p>
+    <audio src="media/Wildfire - Jessie Villa (1).mp3" controls autoplay></audio>
+    
+</body>
+</html>
