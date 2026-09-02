@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 992px) {
+     #burguer{
+        display: none;
+    } 
+    
+    menu ul{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px;
+        margin-top: 30px;
+        padding:  0px 0px ;
+        text-align: start;
+    }
+    
+    ul li{
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    menu ul li a {
+        margin-bottom: 0;   /* zera o espaço extra que só fazia sentido no mobile */
+    }
+    
+}
